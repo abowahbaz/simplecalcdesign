@@ -1,16 +1,16 @@
 @font-face {
     font-family:'CatDad' ;
-    src: url(../fonts/PGF_Now_Book.ttf);
+    src: url(PGF_Now_Book.ttf);
 }
 
 @font-face {
     font-family:'CatDadBold' ;
-    src: url(../fonts/PGF_Now_Bold.ttf);
+    src: url(PGF_Now_Bold.ttf);
 }
 
 @font-face {
     font-family:'CatDadExtraBold' ;
-    src: url(../fonts/PGF_Now_Extra_Bold.ttf);
+    src: url(PGF_Now_Extra_Bold.ttf);
 }
 
 
