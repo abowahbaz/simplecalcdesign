@@ -1,0 +1,120 @@
+@font-face {
+    font-family:'CatDad' ;
+    src: url(../fonts/PGF_Now_Book.ttf);
+}
+
+@font-face {
+    font-family:'CatDadBold' ;
+    src: url(../fonts/PGF_Now_Bold.ttf);
+}
+
+@font-face {
+    font-family:'CatDadExtraBold' ;
+    src: url(../fonts/PGF_Now_Extra_Bold.ttf);
+}
+
+
+*{
+    font-family:CatDadExtraBold;
+
+}
+
+body{
+background-color: #3b4664;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    margin-right: 480px;
+}
+
+#calcbutton{
+    background-color: #eae3db;
+    color: #4a5163;
+    font-size: 30px;
+   border:none;
+   border-bottom: 4px solid #b5a49a;
+
+}
+#calcontainer{
+background-color: #232e44;
+width: 540px;
+height: 300;
+
+}
+
+#calcinput{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 540px;
+    height: 128px;
+    margin-left: 410px;
+    color: white;
+    background-color: #181f32;
+    border: hidden;
+    font-size: 60px;
+}
+
+#calcinput[type=number]:focus {
+    outline: none;
+        }
+#functionbutton{
+    background-color: #64719d;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 4px solid #424e76;
+}
+
+#equalbutton{
+background-color: #d13f30;
+border: none;
+color: white;
+font-size: 30px;
+border: none;
+border-bottom: 4px solid #96271c;
+
+}
+
+#calcbutton:active{
+    background-color: #fff;
+}
+
+
+#functionbutton:active{
+    background-color: #a2b3e1;
+}
+
+#equalbutton:active{
+background-color:#f96c5b ;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+.attribution { font-size: 18px; text-align: center;
+font-family: CatDad; }
+.attribution a { font-family: CatDad;  color: #f96c5b; }
+
+
+@media only screen and (max-width:576px ){
+*{
+    width: 375px;
+}
+
+
+
+
+}
